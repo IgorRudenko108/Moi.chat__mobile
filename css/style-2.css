@@ -42,10 +42,19 @@
   max-width: 100%;
 }
 
+.main__img-wrapper {
+  margin: 0 auto;
+} 
+
+
 @media (min-width: 431px) {
   .main__inner-2 {
     margin: 0 auto;
   }
+
+  .main__img-wrapper {
+    margin: 0 -20px;
+  } 
 }
 
 @media (max-width: 360px) {
@@ -58,7 +67,7 @@
 
 @media screen and (max-height: 940px) {
   .main__img-wrapper {
-    max-width: 350px;
+    /* max-width: 350px; */
     margin: 0 -20px;
   }
 
