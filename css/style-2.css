@@ -56,10 +56,18 @@
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 940px) {
   .main__img-wrapper {
-    /* padding: 0 50px; */
     max-width: 350px;
+    margin: 0 -20px;
+  }
+
+  .main__img-2 {
+    padding: 0;
+  }
+
+  .main__container-2 {
+    padding: 0;
   }
 
   .main__text-2 {
