@@ -213,6 +213,21 @@
   letter-spacing: -0.4px;
 }
 
+@media (any-hover: hover) {
+  .btn:hover {
+    background-color: #009433;
+    transition: background-color 0.2s ease-in-out;
+  }
+}
+
+.btn:active {
+  background-color: #02c445;
+}
+
+.btn:focus-visible {
+  background-color: #009433;
+}
+
 .footer__install-progress {
   border-radius: 15px;
   background: #D9FEEC;
@@ -298,6 +313,15 @@
 }
 
 /* ---------------------------------------------------- */
+@media (min-width: 640px) {
+ .footer__feedback {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+ } 
+}
+
 @media (max-width: 425px) {
   .main__title {
     font-size: 30px;
@@ -327,6 +351,14 @@
   .footer__feedback-count {
     left: initial;
     right: 0;
+  }
+
+  .checkbox__label {
+    font-size: 10px;
+  }
+
+  .footer {
+    border-radius: 15px 15px 0 0;
   }
 }
 
@@ -365,7 +397,7 @@
   }
 
   .main-title__deco {
-    left: 7px;
+    left: 5px;
     width: 12px;
     height: 15px;
   } 
@@ -417,7 +449,7 @@
   }
 
   .main-title__deco {
-    left: 7px;
+    left: 5px;
     width: 12px;
     height: 15px;
   } 
