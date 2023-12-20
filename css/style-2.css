@@ -51,7 +51,7 @@
   }
 
   .main__img-wrapper {
-    margin: 0 -20px;
+    margin: 0 auto;
   } 
 }
 
@@ -70,7 +70,7 @@
   }
 
   .main__img-2 {
-    padding: 0 20px;
+    padding: 0 30px;
   }
 
   .main__container-2 {
