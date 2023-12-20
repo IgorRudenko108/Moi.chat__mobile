@@ -84,11 +84,11 @@
   }
 }
 
-@media screen and (max-height: 700px) {
+/* @media screen and (max-height: 700px) {
   .main__img-2 {
     padding: 0 30px;
   }
-}
+} */
 
 @media screen and (max-height: 640px) {
   .main__img-2 {
