@@ -17,7 +17,7 @@
 }
 
 .main__inner-2 {
-  max-width: 450px;
+  max-width: 500px;
   margin: 0 auto;
   position: relative;
   overflow-x: hidden;
@@ -79,7 +79,7 @@
 @media screen and (max-height: 931px) {
 
   .main__inner-2 {
-    max-width: 350px;
+    max-width: 400px;
   }
 }
 
