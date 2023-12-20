@@ -85,7 +85,9 @@
 
 @media screen and (max-height: 768px) {
   .main__inner-2 {
-    max-width: 300px;
+    max-width: 350px;
+    padding: 0 25px;
+    
   }
 
   .main__text-2 {
@@ -96,6 +98,7 @@
 
 @media screen and (max-height: 640px) {
   .main__inner-2 {
-    max-width: 260px;
+    max-width: 300px;
+    padding: 0 25px;
   }
 }
