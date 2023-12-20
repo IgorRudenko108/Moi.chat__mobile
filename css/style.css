@@ -211,6 +211,7 @@
   font-weight: 800;
   line-height: 120%;
   letter-spacing: -0.4px;
+  transition: background-color 0.2s ease-in-out;
 }
 
 @media (any-hover: hover) {
@@ -409,7 +410,7 @@
 
 
   .footer {
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     padding: 20px 0 10px;
   }
 
@@ -464,7 +465,7 @@
   }
 
   .footer {
-    border-radius: 10px 10px 0 0;
+    border-radius: 15px 15px 0 0;
     padding: 20px 0 10px;
   }
 
