@@ -69,11 +69,14 @@
 
 @media screen and (max-height: 700px) {
   .main__img-2 {
-    padding: 0 60px;
+    padding: 0 30px;
   }
 }
 
 @media screen and (max-height: 640px) {
+  .main__img-2 {
+    padding: 0 60px;
+  }
 
   .main__text-2 {
     font-size: 14px;
