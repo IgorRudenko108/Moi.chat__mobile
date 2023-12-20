@@ -17,15 +17,16 @@
 }
 
 .main__inner-2 {
-  margin: 0 -30px;
-  max-width: 500px;
+  /* margin: 0 -30px; */
+  /* padding: 0 10px; */
+  max-width: 450px;
   position: relative;
   overflow-x: hidden;
 }
 
 .main__text-2 {
   position: absolute;
-  right: 30px;
+  right: 10px;
   top: 0;
   text-align: right;
   color: #fff;
@@ -56,20 +57,25 @@
 }
 
 @media screen and (max-height: 800px) {
-  .main__img-2 {
+  /* .main__img-2 {
     padding: 0 50px;
     max-width: 380px;
-  }
+  } */
 
   .main__text-2 {
     font-size: 16px;
   }
 }
 
+/* @media screen and (max-height: 680px) {
+  .main__img-2 {
+    max-width: 400px;
+  }
+} */
+
 @media screen and (max-height: 640px) {
   .main__img-2 {
-    padding: 0 70px 0 40px;
-    max-width: 350px;
+    /* max-width: 350px; */
   }
 
   .main__text-2 {
