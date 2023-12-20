@@ -117,7 +117,7 @@ body {
   gap: 8px;
   overflow-x: hidden;
   overflow-y: auto;
-  min-width: 300px;
+  /* min-width: 300px; */
 }
 
 .main {
