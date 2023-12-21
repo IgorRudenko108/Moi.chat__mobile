@@ -425,7 +425,9 @@
 
 @media screen and (max-height: 931px) {
   .footer__btn,
-  .footer__install-progress {
+  .footer__install-progress,
+  .progress .bar span,
+  .progress .bar {
     height: 45px;
     border-radius: 10px;
     font-size: 18px;

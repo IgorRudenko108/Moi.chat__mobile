@@ -133,6 +133,12 @@
 /* ----------------------------------------------- */
 
 @media screen and (max-height: 931px) {
+  .progress .bar span,
+  .progress .bar {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
 
   .main__inner-2 {
     max-width: 400px;
