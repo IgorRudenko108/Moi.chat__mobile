@@ -77,15 +77,29 @@
 					</div>
 				</div>
 
-				<div class="footer__controls">
-					<button class="footer__btn btn btn-install">Установить</button>
+				<!------------------------------------------------------------------------>
+				<div class="footer__controls controller">
+					<button class="footer__btn btn btn-install button">Установить</button>
 
-					<div class="footer__install-progress">
-						Идет установка: <span>0</span>%
+					<div class="progress">
+						<div class="top">
+							<div class="info">
+								<p class="completion">
+									<span class="complite">Идет установка:</span>
+									<span class="percentage">0%</span>
+
+								</p>
+							</div>
+						</div>
+
+						<div class="bar">
+							<span class="loader"></span>
+						</div>
 					</div>
-					
-					<button class="footer__btn btn btn-open">Открыть</button>
+
+					<a class="footer__btn btn btn-open done" href="#">Открыть</a>
 				</div>
+				<!------------------------------------------------------------------------>
 
 				<div class="footer__checkbox">
 					<input id="formAgreement" type="checkbox" name="agreement" class="checkbox__input">
